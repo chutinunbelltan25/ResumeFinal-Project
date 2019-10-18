@@ -1,0 +1,103 @@
+.head {
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    grid-column-gap: 0.75em;
+}
+.head > div{
+    background-color: silver;
+    padding: 1em;
+}
+.head > div > h1 {
+    background: silver;
+    text-align: center;
+    text-shadow: -4px -3px 0px whitesmoke;  
+    margin: 20px;
+    opacity: 8;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 45pt;
+}
+
+.head > div >.live {
+    margin: 5% 15% 0% 15%;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.head > div:nth-child(odd) {
+    background: black;
+    margin: 0%;
+    text-align: center;
+}
+.head > div:nth-child(odd) >img {
+    background: white;
+    width: 60%;
+    padding: 2%;
+    border-radius: 50%; 
+    box-shadow: 0 0 -5px whitesmoke;
+    
+}
+.bell {
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    grid-column-gap: 0.75em;
+
+}
+.bell > div > h1 {
+    color: white;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30pt;
+}
+.bell > div > h2 {
+    color: black;
+    text-align: left;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25pt;
+}
+.bell > div > .live {
+    color: black;
+    text-align: left;
+    margin: 20px;
+    font-family: 'Franklin Georgia, serif;';
+    font-size: 16pt;
+}
+.bell > div:nth-child(odd) {
+    background: silver;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+}
+
+.bell > div:nth-child(odd) > ul {
+    margin: 5%;
+    
+}
+.bell > div:nth-child(odd) > ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 15px 0px 15px 0px;
+    margin: 5%;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.works {
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-column-gap: 1em;
+}
+.works > div:nth-child(odd) {
+    color: black;
+    margin: 5%;
+}
+.bell > div > h2 {
+    color: black;
+    margin: 5%;
+}
